@@ -3,35 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>simple practice Website</title>
+    <title>Tech Insights Blog</title>
     <link rel="stylesheet" href="style/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-        
-    <div>
-        <h3><u>first blog:</u> </h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nam modi incidunt, optio repellendus labore ea veritatis sequi ipsa minus beatae molestias sed harum, debitis officiis tempora asperiores exercitationem eligendi.</p>
-    </div>
-    <div>
-        <h3><u>second blog:</u></h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor ullam in iure! Obcaecati, eos. Vero, eius deserunt iusto sint odio ullam ab sapiente ea explicabo? Repudiandae at optio eligendi.</p>
-    </div>
-    <div>
-        <h3><u>third blog:</u></h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore soluta assumenda odio animi facilis, atque dignissimos non magnam aspernatur alias dolore temporibus nulla blanditiis enim laboriosam officiis et commodi quo.</p>
-    </div>
-    <div>
-        <h3><u>List to push git:</u></h3>
-        <ul>
-        <li>git add .</li>
-        <li>git commit -m"add a meaningful commit message"</li>
-        <li>git push</li>
-    </ul>
-</div>
-<div>
-    <h3>Added a marvel movies poster</h3>
-    <img src="image/marvel.jpg" alt="">
-</div>
+    <header>
+        <div class="container">
+            <h1>Tech Insights Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     
+    <section class="hero">
+        <div class="container">
+            <h2>Exploring the Digital Frontier</h2>
+            <p>Insights, analysis, and updates on the latest technology trends</p>
+        </div>
+    </section>
+    
+    <main class="container">
+        <section class="blog-posts">
+            <article class="post">
+                <div class="post-image">
+                    <img src="image/ai-tech.jpg" alt="AI Technology Concept">
+                </div>
+                <div class="post-content">
+                    <h3>The Evolution of AI in Everyday Applications</h3>
+                    <div class="post-meta">
+                        <span><i class="fas fa-calendar"></i> March 1, 2025</span>
+                        <span><i class="fas fa-user"></i> Alex Johnson</span>
+                    </div>
+                    <p>Artificial intelligence has undergone remarkable transformations in recent years, moving beyond specialized applications into everyday tools we use. From smart assistants to content recommendation engines, AI is increasingly becoming an invisible part of our digital experience.</p>
+                    <p>Recent advances in natural language processing have particularly changed how we interact with technology. Voice interfaces are now capable of understanding context, remembering previous exchanges, and providing more human-like responses.</p>
+                    <a href="#" class="read-more">Continue Reading <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="post">
+                <div class="post-image">
+                    <img src="image/cloud-computing.jpg" alt="Cloud Computing Concept">
+                </div>
+                <div class="post-content">
+                    <h3>Cloud Computing: Beyond Infrastructure as a Service</h3>
+                    <div class="post-meta">
+                        <span><i class="fas fa-calendar"></i> February 25, 2025</span>
+                        <span><i class="fas fa-user"></i> Sarah Chen</span>
+                    </div>
+                    <p>The cloud computing landscape continues to evolve at a rapid pace. What started as simple storage solutions has transformed into comprehensive platforms that provide everything from machine learning APIs to specialized industry solutions.</p>
+                    <p>Multi-cloud strategies are becoming the norm as organizations seek to avoid vendor lock-in while leveraging the unique strengths of different providers. This approach allows greater flexibility but comes with its own challenges in terms of management and integration.</p>
+                    <a href="#" class="read-more">Continue Reading <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="post">
+                <div class="post-image">
+                    <img src="image/marvel.jpg" alt="Marvel Movies Poster">
+                </div>
+                <div class="post-content">
+                    <h3>How Marvel's CGI Technology Is Changing Filmmaking</h3>
+                    <div class="post-meta">
+                        <span><i class="fas fa-calendar"></i> February 18, 2025</span>
+                        <span><i class="fas fa-user"></i> Michael Rodriguez</span>
+                    </div>
+                    <p>Marvel Studios has consistently pushed the boundaries of visual effects technology in their cinematic universe. From de-aging technology to entirely digital characters, their technological innovations have influenced the entire film industry.</p>
+                    <p>The integration of machine learning into CGI workflows has dramatically reduced rendering times while improving quality, allowing filmmakers to iterate more quickly on complex visual sequences. This technology is now being adopted across other studios and creative industries.</p>
+                    <a href="#" class="read-more">Continue Reading <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </section>
+        
+        <aside class="sidebar">
+            <div class="widget">
+                <h4>About</h4>
+                <p>Tech Insights Blog provides in-depth analysis and commentary on emerging trends in technology, digital culture, and innovation.</p>
+            </div>
+            
+            <div class="widget">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">Cloud Computing</a></li>
+                    <li><a href="#">Digital Media</a></li>
+                    <li><a href="#">Software Development</a></li>
+                    <li><a href="#">Tech Industry News</a></li>
+                </ul>
+            </div>
+            
+            <div class="widget">
+                <h4>Subscribe</h4>
+                <form>
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </aside>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Tech Insights Blog</h4>
+                    <p>Exploring technology trends and their impact on society and business.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Tech Insights Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
